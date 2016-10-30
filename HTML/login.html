@@ -3,8 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <title>Scheduler - Login</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/main.css">
 </head>
 <body>
-
+<div id="main_container">
+    <div id="title_header"></div>
+    <div id="content_container">
+        <div class="login_area">
+            <form>
+                <div class="login_field" id="userName">
+                    <label class="label">Username: </label>
+                    <input type="text" placeholder="Employee ID" name="loginID" required>
+                </div>
+                <div class="login_field" id="password">
+                    <label class="label">Password: </label>
+                    <input type="password" placeholder="Password" name="pwd" required>
+                </div>
+                <div class="login_field"  id="login_button"><button type="submit">Sign In</button></div>
+            </form>
+        </div>
+    </div>
+    <div id="footer"></div>
+</div>
 </body>
 </html>
